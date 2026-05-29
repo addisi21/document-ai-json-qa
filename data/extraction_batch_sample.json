@@ -1,0 +1,55 @@
+{
+  "portfolio_note": "Synthetic batch extraction sample for public data-quality QA demonstration.",
+  "records": [
+    {
+      "document_id": "DOC-001",
+      "document_type": "invoice",
+      "vendor": "Meridian Office Supplies Ltd.",
+      "total_due": 77669,
+      "currency": "NGN",
+      "due_date": "2024-03-15",
+      "schema_version": "invoice_v1",
+      "source_pages": 1
+    },
+    {
+      "document_id": "DOC-002",
+      "document_type": "invoice",
+      "vendor": "Northline Office Supplies",
+      "total_due": 1343.75,
+      "currency": "USD",
+      "due_date": "2026-05-12",
+      "schema_version": "invoice_v1",
+      "source_pages": 1
+    },
+    {
+      "document_id": "DOC-003",
+      "document_type": "claim_form",
+      "vendor": "",
+      "total_due": 2480,
+      "currency": "USD",
+      "due_date": "",
+      "schema_version": "claim_v1",
+      "source_pages": 2
+    },
+    {
+      "document_id": "DOC-004",
+      "document_type": "invoice",
+      "vendor": "Arden Legal Services",
+      "total_due": -450,
+      "currency": "USD",
+      "due_date": "2026/06/01",
+      "schema_version": "invoice_v1",
+      "source_pages": 1
+    },
+    {
+      "document_id": "DOC-002",
+      "document_type": "invoice",
+      "vendor": "Northline Office Supplies",
+      "total_due": 1343.75,
+      "currency": "USD",
+      "due_date": "2026-05-12",
+      "schema_version": "invoice_v1",
+      "source_pages": 1
+    }
+  ]
+}
