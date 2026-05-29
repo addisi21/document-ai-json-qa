@@ -1,0 +1,10 @@
+{
+  "invoice_number": "INV-2024-0047",
+  "vendor": "Meridian Office Supplies Ltd.",
+  "bill_to": "Hargrove & Associates, 14 Commerce Lane, Lagos",
+  "subtotal": 72250,
+  "tax_amount": 5419,
+  "total_due": 77669,
+  "due_date": "2024-03-15",
+  "line_item_count": 3
+}
