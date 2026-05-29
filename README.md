@@ -31,7 +31,19 @@ This repository demonstrates how to review AI-extracted JSON against source docu
 - `qa-checklist.md`: review checklist for document extraction QA
 - `sample-error-taxonomy.md`: public error taxonomy for finance/legal document AI
 - `proof-pack.md`: public document extraction QA examples with model JSON, expected JSON, error tables, severity labels, and reviewer notes
+- [schema/invoice_schema.json](schema/invoice_schema.json): public invoice extraction schema
+- [examples/reconstructed_invoice_source.md](examples/reconstructed_invoice_source.md): reconstructed source document
+- [examples/extracted_invoice.json](examples/extracted_invoice.json): AI-extracted JSON sample
+- [expected/invoice_expected.json](expected/invoice_expected.json): expected source-grounded values
+- [scripts/validate_invoice_extraction.py](scripts/validate_invoice_extraction.py): dependency-free validation script
+- [outputs/validation-report.md](outputs/validation-report.md): reviewer-ready validation report
 
 ## Confidentiality Standard
 
 All examples are rewritten for public use and do not contain real client files, screenshots, invoices, contracts, or source documents.
+
+## Run Locally
+
+```bash
+python scripts/validate_invoice_extraction.py
+```
